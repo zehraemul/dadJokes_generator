@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(88, 120, 215);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+}
+.container{
+    margin-top: 30px;
+    background-color: #fff ;
+    height: 400px;
+    padding: 30px;
+    text-align: center;
+    width: 900px;
+    border-radius: 20px;
+   /* display: flex;
+    flex-direction: column;
+    justify-content: end;
+    */
+}
+
+.container h2{
+    font-size: 30px;
+    color: rgb(15, 54, 56);
+
+}
+.joke{
+    margin: 20px;
+    font-size: 28px;
+    height: 160px;
+}
+.btn{
+    font-size: 20px;
+    background-color: rgb(88, 120, 215);
+    padding: 20px 30px 20px 30px;
+    border:0px;
+    border-radius: 4px;
+   /* margin-bottom: 20px;*/
+    cursor: pointer;
+    color: #fff;
+    letter-spacing:  2px;
+    
+}
+.btn:hover{
+    border: 2px solid rgb(88, 120, 215);
+    background-color: #fff;
+    color:rgb(88, 120, 215);
+}
+
+
